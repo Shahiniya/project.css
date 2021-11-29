@@ -1,0 +1,47 @@
+body {
+    background: #f1f;
+    font-family:'Lucida Sans', 'Lucida Grande';
+    font-weight:900;
+    font-size: 20px ;
+}
+
+h1 {
+    background: rgb(228, 18, 18);
+    font-size: 3vh;
+}
+
+.container1{
+    background: rgb(213, 230, 226);
+    height:200px;
+    width: 20rem;
+    margin:10px;
+
+}
+
+.container2{
+    background: rgb(201, 18, 18);
+    height:20rem;
+    width: 20rem;
+    margin:10px;
+
+}
+
+.container3{
+    background: rgb(31, 202, 82);
+    height:100px;
+    width: 2em;
+    margin:10px;
+
+}
+
+.container4{
+    background: rgb(85, 18, 209);
+    height:100px;
+    width: 100px;
+    margin:10px;
+
+}
+
+#number{
+    background: yellowgreen;
+}
