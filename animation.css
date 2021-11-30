@@ -1,0 +1,68 @@
+.item{
+    width:200px;
+    height:200px;
+    background-color: blue;
+    /* animation-name: box;
+    animation-duration: 5s; */
+    position: relative;
+   
+}
+
+
+@keyframes box {
+    from{
+        background-color: brown;
+    }
+    to{
+        background-color: cornflowerblue;
+    }
+}
+
+
+.son{
+    margin:10px;
+ width: 100px;
+    height: 50px;
+    background-color: blue;
+    animation-name: circle;
+    animation-duration: 8s;
+    position:relative;
+    animation-delay:2s;
+    animation-iteration-count:3; 
+    /* /(infinite)-qayta qayta aylanadi */
+    animation-direction:reverse; 
+    /* alternate-borgan joyidan yana orqaga qaytadi*/
+    animation-timing-function:ease-in ;
+    animation: circle 3s ease-in-out alternate ;
+}
+
+ @keyframes circle {
+     0%{
+         background-color: cornsilk;
+         left:0;
+         top:0;
+     }
+     25%{
+         background-color: darkgoldenrod;
+         left:800px;
+         top:0;
+     }
+     50%{
+         background-color: darkseagreen;
+         left:800px;
+
+         top:800px;
+
+     /* }
+     75%{
+         background-color: darkturquoise;
+         left:0px;
+        height:50px;
+         top:800px; */
+     }
+     100%{
+         background-color: hotpink;
+     }
+ }
+
+
