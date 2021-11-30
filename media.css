@@ -1,0 +1,35 @@
+*{
+padding: 0;
+margin: 0;
+box-sizing: border-box;
+}
+
+body{
+    background-color: #D2E9E1;
+}
+
+.main{
+    display: flex;
+    flex-direction: column;
+    margin: 50px 50px;
+    background-color: #fff;
+    height: 85vh;
+}
+
+.navbar{
+    display: flex;
+    height: 10vh ;
+    background-color: red;
+
+}
+
+.titleBar{
+    height: 25vh;
+    background-color: rgb(63, 55, 55);
+}
+
+.footer{
+    height: 25vh;
+    background-color: rgb(156, 83, 83);
+}
+
